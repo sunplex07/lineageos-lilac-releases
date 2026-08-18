@@ -1,32 +1,47 @@
 [
-  {
-    "datetime": 1786925172,
-    "version": "23.2",
-    "type": "unofficial",
-    "files": [
-      {
-        "filename": "lineage-23.2-20260817-UNOFFICIAL-lilac.zip",
-        "sha256": "9b4ef5c09677c53674558ad547fdac39a775649b1e26baa4b4b159075735ab04",
-        "size": 1125035629,
-        "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260817/lineage-23.2-20260817-UNOFFICIAL-lilac.zip",
-        "os_sdk_level": 36,
-        "os_patch_level": "2026-08-01"
-      }
-    ]
-  },
-  {
-    "datetime": 1786671647,
-    "version": "23.2",
-    "type": "unofficial",
-    "files": [
-      {
-        "filename": "lineage-23.2-20260814-UNOFFICIAL-lilac.zip",
-        "sha256": "5f6f0f4534047608088f83f43a192c5edc0d5470190c057e97d7b7e86abedcd2",
-        "size": 1124952126,
-        "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260814/lineage-23.2-20260814-UNOFFICIAL-lilac.zip",
-        "os_sdk_level": 36,
-        "os_patch_level": "2026-08-01"
-      }
-    ]
-  }
+    {
+        "datetime": 1786998524,
+        "version": "23.2",
+        "type": "unofficial",
+        "files": [
+            {
+                "filename": "lineage-23.2-20260817-nfc-UNOFFICIAL-lilac.zip",
+                "sha256": "771676ab7b54f4c3d153264cd3b74f7157cd289621f1b006c1b384009d21ac57",
+                "size": 1124965580,
+                "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260817-nfc/lineage-23.2-20260817-nfc-UNOFFICIAL-lilac.zip",
+                "os_sdk_level": 36,
+                "os_patch_level": "2026-08-01"
+            }
+        ]
+    },
+    {
+        "datetime": 1786925172,
+        "version": "23.2",
+        "type": "unofficial",
+        "files": [
+            {
+                "filename": "lineage-23.2-20260817-UNOFFICIAL-lilac.zip",
+                "sha256": "9b4ef5c09677c53674558ad547fdac39a775649b1e26baa4b4b159075735ab04",
+                "size": 1125035629,
+                "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260817/lineage-23.2-20260817-UNOFFICIAL-lilac.zip",
+                "os_sdk_level": 36,
+                "os_patch_level": "2026-08-01"
+            }
+        ]
+    },
+    {
+        "datetime": 1786671647,
+        "version": "23.2",
+        "type": "unofficial",
+        "files": [
+            {
+                "filename": "lineage-23.2-20260814-UNOFFICIAL-lilac.zip",
+                "sha256": "5f6f0f4534047608088f83f43a192c5edc0d5470190c057e97d7b7e86abedcd2",
+                "size": 1124952126,
+                "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260814/lineage-23.2-20260814-UNOFFICIAL-lilac.zip",
+                "os_sdk_level": 36,
+                "os_patch_level": "2026-08-01"
+            }
+        ]
+    }
 ]
