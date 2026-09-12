@@ -1,5 +1,20 @@
 [
   {
+    "datetime": 1789170593,
+    "version": "23.2",
+    "type": "unofficial",
+    "files": [
+      {
+        "filename": "lineage-23.2-20260911-UNOFFICIAL-lilac.zip",
+        "sha256": "0332177447e66ea66e6f9c74265be7ae19d0e9bdc41d13e93ffd71fa6eadc771",
+        "size": 1126329154,
+        "url": "https://github.com/sunplex07/lineageos-lilac-releases/releases/download/lineage-23.2-20260911/lineage-23.2-20260911-UNOFFICIAL-lilac.zip",
+        "os_sdk_level": 36,
+        "os_patch_level": "2026-08-01"
+      }
+    ]
+  },
+  {
     "datetime": 1789011566,
     "version": "23.2",
     "type": "unofficial",
