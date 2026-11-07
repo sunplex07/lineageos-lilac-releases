@@ -1,0 +1,17 @@
+name: Feature request
+description: something you'd like added or changed
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What you'd like
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why / how you'd use it
+  - type: textarea
+    id: prior
+    attributes:
+      label: Other ROMs or apps that do this

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: XDA thread (questions, install help)
+    url: https://xdaforums.com/t/rom-a16-lineageos-23-2-unofficial-lilac-stable.4797464/
+    about: install questions and general chat go here
+  - name: Kernel source
+    url: https://github.com/sunplex07/android_kernel_sony_msm8998
+    about: kernel bugs can go on the kernel repo

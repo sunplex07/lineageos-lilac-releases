@@ -1,0 +1,67 @@
+name: Bug report
+description: something broken or not working right
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        thanks for reporting! check [open issues](../../issues) first, maybe it's already known.
+        logs help the most: an `adb bugreport` right after the problem happens is ideal.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Camera, "Cellular / VoLTE / SMS", Wi-Fi, Bluetooth, Battery / power, "Audio / calls", Display / UI, "Storage / adopted SD", KernelSU / root, Xperia Parts, Other]
+    validations: { required: true }
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options: ["G8441 (XZ1 Compact)", "SO-02K (docomo)", Other]
+    validations: { required: true }
+  - type: input
+    id: build
+    attributes:
+      label: ROM build
+      description: Settings > About phone > Android version > LineageOS version (or the release date, e.g. 2026-10-19)
+    validations: { required: true }
+  - type: input
+    id: firmware
+    attributes:
+      label: Stock firmware base + carrier
+      description: what you flashed before the ROM (e.g. 47.2.A.11.228 CustomizedUS) and your carrier/country
+  - type: dropdown
+    id: install
+    attributes:
+      label: Install
+      options: [Clean install, Dirty flash / update, Not sure]
+  - type: checkboxes
+    id: extras
+    attributes:
+      label: Anything unusual?
+      options:
+        - label: rooted (KernelSU / Magisk / modules)
+        - label: apps on an adopted SD card
+        - label: microG / Google apps installed
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: what you expected vs what you got
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ..."
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: attach the bugreport zip, or paste `adb logcat -b all` around the problem
+      render: shell
+  - type: textarea
+    id: more
+    attributes:
+      label: Screenshots / extra info
